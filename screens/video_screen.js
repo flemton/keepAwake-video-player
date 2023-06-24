@@ -30,7 +30,7 @@ export default function VideoPlayerScreen() {
       {isBuffering && <ProgressIndicator />}
       <Video
         style={styles.video}
-        source={{ uri: videoSource }}
+        source={{ uri: videoUri }}
         isLooping
         shouldPlay
         resizeMode="cover"
